@@ -5,8 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
-</head>
-<body>
 <!-- 라이브러리명 : 폰트어썸 -->
 <!-- 아이콘 라이브러리 -->
 <link rel="stylesheet"
@@ -31,6 +29,9 @@
 <!-- 반응형 디자인 웹을 만들어 준다. -->
 <link rel="stylesheet"
 	href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css">
+
+</head>
+<body>
 
 <!-- 부트스트랩 -->
 <!-- 부트스트랩은 js 와 css 파일이 한쌍이다. -->

@@ -9,10 +9,10 @@ $addBtn.on('click', function() {
     return false;
   }
 
-  $('.main-list').prepend('<li>' + $todolnput.val() + '<button class="btn btn-danger"deleteBtClicked(this);">삭제</button></li>');
+  $('.main-list').prepend('<li>' + $todolnput.val() + '<button class="btn btn-danger" onclick="deleteBtnClicked(this);">삭제</button></li>');
   $todolnput.val('');
-})
+});
 
-function deleteBtnCllicked(btn){
-  alert($(btn)).parent().remove();
+function deleteBtnClicked(btn){
+  $(btn).parent().remove();
 }
